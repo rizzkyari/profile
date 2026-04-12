@@ -792,7 +792,25 @@ pre code {
       -ms-flex-order: 4;
           order: 4;
 }
+.work-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
 
+.work-item {
+    text-align: center;
+    width: 250px;
+}
+
+
+.caption {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #aaa;
+}
 .order-5 {
   -webkit-box-ordinal-group: 6;
   -webkit-order: 5;
